@@ -55,7 +55,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/still-life-with-book-hipster_169016-3473.jpg"
           imageAlt="luxury home fragrance bottle elegant living room"
           useInvertedBackground={true}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -69,7 +69,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Conheça Nossos Valores", href: "#" }
           ]}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -92,7 +92,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Tenho interesse", href: "https://wa.me/seuwhatsapp" }
           ]}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -127,7 +127,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[]}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -141,7 +141,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Viva Essa Experiência", href: "#products" }
           ]}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -171,7 +171,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/cool-background-blank-wallpaper-place-your-concept_1194-641450.jpg"
           imageAlt="aesthetic Instagram feed layout home fragrance"
           useInvertedBackground={true}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -186,8 +186,7 @@ export default function LandingPage() {
             variant: "radial-gradient"
           }}
           useInvertedBackground={false}
-          tagAnimation="text-stagger"
-          buttonAnimation="hover-magnetic"
+          tagAnimation="slide-up"
         />
       </div>
 
@@ -201,7 +200,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/front-view-beauty-products-shelf-with-copy-space_23-2150718061.jpg"
           imageAlt="luxury home fragrance bottle close up"
           useInvertedBackground={true}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="slide-up"
         />
       </div>
 
