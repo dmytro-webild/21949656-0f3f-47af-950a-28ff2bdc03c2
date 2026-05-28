@@ -14,7 +14,7 @@ import { Sparkles, Leaf, Award } from "lucide-react";
 export default function LandingPage() {
   return (
     <ThemeProvider
-      defaultButtonVariant="bounce-effect"
+      defaultButtonVariant="hover-magnetic"
       defaultTextAnimation="entrance-slide"
       borderRadius="soft"
       contentWidth="small"
@@ -55,7 +55,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/still-life-with-book-hipster_169016-3473.jpg"
           imageAlt="luxury home fragrance bottle elegant living room"
           useInvertedBackground={true}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -69,7 +69,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Conheça Nossos Valores", href: "#" }
           ]}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -92,7 +92,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Tenho interesse", href: "https://wa.me/seuwhatsapp" }
           ]}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -104,22 +104,22 @@ export default function LandingPage() {
             {
               title: "Fragrâncias Marcantes e Elegantes",              description: "Nossas fragrâncias são cuidadosamente selecionadas para perfumar o ambiente com sofisticação e uma identidade olfativa única.",              icon: Sparkles,
               mediaItems: [
-                { imageSrc: "http://img.b2bpic.net/free-photo/eco-life-environmental-logo-with-text_53876-165471.jpg?_wi=1", imageAlt: "elegant leaf icon gold luxury" },
-                { imageSrc: "http://img.b2bpic.net/free-photo/eco-life-environmental-logo-with-text_53876-165471.jpg?_wi=2", imageAlt: "elegant leaf icon gold luxury" }
+                { imageSrc: "http://img.b2bpic.net/free-photo/eco-life-environmental-logo-with-text_53876-165471.jpg", imageAlt: "elegant leaf icon gold luxury" },
+                { imageSrc: "http://img.b2bpic.net/free-photo/eco-life-environmental-logo-with-text_53876-165471.jpg", imageAlt: "elegant leaf icon gold luxury" }
               ]
             },
             {
               title: "Ingredientes Selecionados e Produção Própria",              description: "Garantimos a qualidade desde a origem, com produção própria e o uso exclusivo de ingredientes premium, sem abrir mão do cuidado artesanal.",              icon: Leaf,
               mediaItems: [
-                { imageSrc: "http://img.b2bpic.net/free-vector/leaf-business-logo-template-organic-product-branding-vector_53876-157499.jpg?_wi=1", imageAlt: "premium ingredient icon natural botanical" },
-                { imageSrc: "http://img.b2bpic.net/free-vector/leaf-business-logo-template-organic-product-branding-vector_53876-157499.jpg?_wi=2", imageAlt: "premium ingredient icon natural botanical" }
+                { imageSrc: "http://img.b2bpic.net/free-vector/leaf-business-logo-template-organic-product-branding-vector_53876-157499.jpg", imageAlt: "premium ingredient icon natural botanical" },
+                { imageSrc: "http://img.b2bpic.net/free-vector/leaf-business-logo-template-organic-product-branding-vector_53876-157499.jpg", imageAlt: "premium ingredient icon natural botanical" }
               ]
             },
             {
               title: "Experiência Premium para o Dia a Dia",              description: "Ideal para casa, escritório, lavabo ou como um presente memorável, nossos produtos elevam o seu dia a dia a um novo nível de bem-estar.",              icon: Award,
               mediaItems: [
-                { imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-instagram-highlight-illustration_23-2150863458.jpg?_wi=1", imageAlt: "handmade craft icon elegant hands" },
-                { imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-instagram-highlight-illustration_23-2150863458.jpg?_wi=2", imageAlt: "handmade craft icon elegant hands" }
+                { imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-instagram-highlight-illustration_23-2150863458.jpg", imageAlt: "handmade craft icon elegant hands" },
+                { imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-instagram-highlight-illustration_23-2150863458.jpg", imageAlt: "handmade craft icon elegant hands" }
               ]
             }
           ]}
@@ -127,7 +127,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[]}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -141,7 +141,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Viva Essa Experiência", href: "#products" }
           ]}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -171,7 +171,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/cool-background-blank-wallpaper-place-your-concept_1194-641450.jpg"
           imageAlt="aesthetic Instagram feed layout home fragrance"
           useInvertedBackground={true}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -186,8 +186,8 @@ export default function LandingPage() {
             variant: "radial-gradient"
           }}
           useInvertedBackground={false}
-          tagAnimation="entrance-slide"
-          buttonAnimation="bounce-effect"
+          tagAnimation="hover-magnetic"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
@@ -201,7 +201,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/front-view-beauty-products-shelf-with-copy-space_23-2150718061.jpg"
           imageAlt="luxury home fragrance bottle close up"
           useInvertedBackground={true}
-          buttonAnimation="bounce-effect"
+          buttonAnimation="hover-magnetic"
         />
       </div>
 
