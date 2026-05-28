@@ -54,7 +54,6 @@ export default function LandingPage() {
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/still-life-with-book-hipster_169016-3473.jpg"
           imageAlt="luxury home fragrance bottle elegant living room"
-          useInvertedBackground={true}
           buttonAnimation="slide-up"
         />
       </div>
@@ -170,7 +169,6 @@ export default function LandingPage() {
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/cool-background-blank-wallpaper-place-your-concept_1194-641450.jpg"
           imageAlt="aesthetic Instagram feed layout home fragrance"
-          useInvertedBackground={true}
           buttonAnimation="slide-up"
         />
       </div>
@@ -199,7 +197,6 @@ export default function LandingPage() {
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/front-view-beauty-products-shelf-with-copy-space_23-2150718061.jpg"
           imageAlt="luxury home fragrance bottle close up"
-          useInvertedBackground={true}
           buttonAnimation="slide-up"
         />
       </div>
